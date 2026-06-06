@@ -1,0 +1,12 @@
+# אבטחה - משתני סביבה ומפתחות סודיים
+server/.env
+server/.env.local
+
+# ספריות קוד כבדות (אין צורך להעלות, ורסל מתקין אותן לבד לפי ה-package.json)
+server/node_modules/
+
+# קבצי מערכת זמניים ולוגים של שגיאות
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/.DS_Store
